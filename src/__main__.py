@@ -92,6 +92,8 @@ def get_first_result_url(search_url: str) -> str or None:
 
 
 def download_tracks(urls: List[str], save_path: str):
+    """ Saves the given tracks as mp3 files to the given location """
+    
     print('Downloading tracks...\n')
 
     ydl_opts = {
