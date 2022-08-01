@@ -6,3 +6,5 @@ Following values must be set as environment variables (get them from the [Spotif
 - SPOTIPY_CLIENT_ID
 - SPOTIPY_CLIENT_SECRET
 - SPOTIPY_REDIRECT_URI
+
+You also need to install [FFmpeg](https://ffmpeg.org/download.html).
